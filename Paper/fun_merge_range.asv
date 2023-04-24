@@ -1,0 +1,8 @@
+function r=fun_merge_range(r1,r2)
+    r = [];
+    for i = size(r1,1)
+        for j = size(r2,1)
+            if r1(i,1)<=r2(j,2)&& r1(i,2)>=r2(j,2)
+        end
+    end
+end
